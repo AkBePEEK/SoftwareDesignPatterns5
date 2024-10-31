@@ -1,10 +1,11 @@
 package Template;
 import Character.Character;
+import Character.Enemy;
 
 public abstract class GameAction {
-    public final void executeAction(Character character) {
+    public final void executeAction(Character character, Enemy enemy) {
         startAction();
-        performAction(character);
+        performAction(character, enemy);
         endAction();
     }
 
@@ -12,7 +13,7 @@ public abstract class GameAction {
         System.out.println("Preparing to take action...");
     }
 
-    protected abstract void performAction(Character character);
+    protected abstract void performAction(Character character, Enemy enemy);
 
     protected void endAction() {
         System.out.println("Action complete.");

@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aeb0b70-7e72-4f0e-af74-65ffc901ca3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/DefeatedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/NormalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/PoweredUpState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MagicStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MeleeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/RangedStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/AttackAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/DefendAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/GameAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/HealAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/BoostEffectVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/DamageEffectVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/EffectVisitor.java" afterDir="false" />
+    <list default="true" id="7aeb0b70-7e72-4f0e-af74-65ffc901ca3a" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/Character/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Character/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/AttackAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/AttackAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/DefendAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/DefendAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/GameAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/GameAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Template/HealAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/HealAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,20 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Template" />
@@ -97,11 +89,36 @@
       <option name="presentableId" value="Default" />
       <updated>1729950413138</updated>
       <workItem from="1729950414189" duration="159000" />
-      <workItem from="1730226976215" duration="2000000" />
+      <workItem from="1730226976215" duration="2692000" />
+      <workItem from="1730325009611" duration="3255000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <option name="closed" value="true" />
+      <created>1730243831246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730243831246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
